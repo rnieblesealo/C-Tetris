@@ -1,4 +1,6 @@
-char T_BLOCK[4][3][3] = {
+#include "components.h"
+
+char T_BLOCK[SHAPE_COUNT][X_SHAPE_SIZE][Y_SHAPE_SIZE] = {
 	{
 		{'*', '*', '*'},
 		{' ', '*', ' '},

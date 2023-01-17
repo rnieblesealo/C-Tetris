@@ -52,3 +52,10 @@ Block* new_d_Block(char(*shapes)[Y_SHAPE_SIZE][X_SHAPE_SIZE], Vector2 position){
 
 	return n;
 }
+
+/* Variables */
+
+Vector2 UP = new_s_Vector2(0, -1);
+Vector2 DOWN = new_s_Vector2(0, 1);
+Vector2 LEFT = new_s_Vector2(-1, 0);
+Vector2 RIGHT = new_s_Vector2(1, 0);
